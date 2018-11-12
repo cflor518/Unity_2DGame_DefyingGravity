@@ -61,7 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ForeFieldScript.cs" />
     <Compile Include="Assets\Scripts\PlayerPlaneScript.cs" />
+    <None Include="Assets\Materials\UnlitAlpha.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Suzerain/Documents/Unity/DefyingGravity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
