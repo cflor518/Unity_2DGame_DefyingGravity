@@ -36,9 +36,9 @@ public class PlayerPlaneScript : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space)){
             //Debug.Log("Shooting the damn Cannonball");
             var aLaserBeam = Instantiate(LaserBeam, LaserBeamSpawn.transform.position, Quaternion.identity);
-            Rigidbody2D LaserBeamRigidBody = aLaserBeam.GetComponent<Rigidbody2D>();
+            Rigidbody LaserBeamRigidBody = aLaserBeam.GetComponent<Rigidbody>();
             LaserBeamRigidBody.velocity = Quaternion.Euler(0, 0, 0) * Vector3.up * laser_Power;
-            Destroy(aLaserBeam.gameObject, 5f);
+            Destroy(aLaserBeam.gameObject, 1f);
         }
     }
 }

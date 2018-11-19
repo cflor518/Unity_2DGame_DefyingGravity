@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AsteroidScript.cs" />
+    <Compile Include="Assets\Scripts\AsteroidSpawnerScript.cs" />
     <Compile Include="Assets\Scripts\ForeFieldScript.cs" />
     <Compile Include="Assets\Scripts\PlayerPlaneScript.cs" />
     <Compile Include="Assets\Scripts\SpaceMovement.cs" />
